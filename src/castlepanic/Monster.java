@@ -14,6 +14,7 @@ import java.lang.*;
 public abstract class Monster extends Token {
 
     private int hitPoints;
+    public int testing;
     protected int verticalLocation; //0 - Castle ring, 1 - Swordsman, 2 - Knight, 3 - Archer, 4 - Forest
     protected int horizontalLocation; // 1 through 6 going clockwise
 
